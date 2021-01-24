@@ -1,0 +1,32 @@
+/* CSS DOCUMENT */
+body {
+   font-family: sans-serif;
+   background-color: rgb(52, 54, 59);
+   color: white;
+}
+h1 {
+   font-family: serif;
+   color: rgb(255, 187, 0);
+   text-transform: uppercase;
+}
+h2 {
+   font-family: serif;
+   text-transform: uppercase;
+}
+h3 {
+   color: rgb(235, 171, 45);
+   text-transform: uppercase;
+}
+h4 {
+   padding-left: 1.5em;
+   color: rgb(255, 230, 162);
+}
+p {
+   padding-left: 3em;
+}
+li {
+   list-style: none;
+}
+ul {
+   padding: 0;
+}
