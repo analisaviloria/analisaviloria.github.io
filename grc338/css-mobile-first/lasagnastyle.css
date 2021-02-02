@@ -1,0 +1,52 @@
+/*CSS DOCUMENT*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+Pro&display=swap');
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, summary,time, mark, audio, video {margin: 0;	padding: 0;	border: 0;	vertical-align: baseline;} /*My edited version of the Eric Meyer’s reset tool. Feel free to keep it or delete it. */
+
+img {
+    width: 100%; /*Please leave this line.*/
+}
+
+body {
+    background-color: rgb(233, 233, 233);
+    margin: 2em;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2.5em;
+}
+
+h1 {
+    font-family: 'Source Serif Pro', serif;
+    color: rgb(134, 20, 20);
+}
+
+figure {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+h3 {
+    font-family: 'Source Serif Pro', serif;
+}
+
+ul {
+    list-style-type: square;
+}
+
+section {
+    padding: 1em;
+    padding-right: 2em;
+    border-style: groove;
+    border-color: rgb(134, 20, 20);
+}
+
+section.ingredients {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+footer {
+    font-style: italic;
+}
+
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
