@@ -1,0 +1,113 @@
+/*CSS DOCUMENT*/
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Ubuntu&display=swap");
+
+img {
+    width: 100%;
+}
+
+div.container {
+    max-width: 60em;
+    padding: 1em;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: #f3ecd3;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: rgb(0, 154, 192);
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Merriweather", serif;
+    text-transform: uppercase;
+}
+
+h2,
+h5 {
+    color: rgb(0, 154, 192);
+}
+
+h3 {
+    color: rgb(0, 94, 117);
+}
+
+h5 {
+    font-size: 0.9em;
+    margin-top: 3em;
+}
+
+figure {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+figcaption {
+    margin-top: 1em;
+    text-align: center;
+}
+
+section {
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul li a:hover {
+    color: rgb(255, 217, 0);
+    font-weight: bold;
+}
+
+nav ul {
+    margin-top: 2.7em;
+    text-align: right;
+    margin-right: 0.5em;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 0.05em;
+    margin-right: 0.5em;
+}
+
+section ul li {
+    line-height: 1em;
+}
+
+footer {
+    background-color: rgb(0, 154, 192);
+    padding: 0.5em;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer ul li {
+    margin-right: 2em;
+}
+
+.prices {
+    font-style: italic;
+}
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
